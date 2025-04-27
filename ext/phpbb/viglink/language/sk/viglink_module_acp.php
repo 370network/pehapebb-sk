@@ -11,14 +11,12 @@
 /**
  * DO NOT CHANGE
  */
-if (!defined('IN_PHPBB'))
-{
-	exit;
+if (!defined("IN_PHPBB")) {
+    exit();
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,18 +35,24 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'			=> 'VigLink nastavenia',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink je služba tretej strany, ktorá diskrétne speňažní odkazy v príspevkoch používateľov na vašom fóre bez akejkoľvek zmeny v ich používaní. Keď používateľ klikne na odkaz nejakého produktu alebo služby a zakúpi ju, predajca vyplatí VigLinku províziu, ktorej časť sa použije ako dar pre phpBB. Povolením VigLinku podporujete našu organizáciu a zaisťujete jej finančné zabezpečenie.',
-	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Tieto nastavenia môžete kedykoľvek zmeniť v paneli „<a href="%1$s">VigLink nastavení</a>“.',
-	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Po tom, čo odošlete vašu preferovanú možnosť kliknutím na tlačidlo Odoslať už viac nebudete presmerovaní na túto stránku.',
-	'ACP_VIGLINK_ENABLE'			=> 'Povoliť VigLink',
-	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Povolí používanie služby VigLink.',
-	'ACP_VIGLINK_EARNINGS'			=> 'Nárokujte si na vlastné zárobky (voliteľné)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Môžete si nárokovať na vlastné zárobky tým, že si vytvoríte VigLink účet.',
-	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'VigLink služba bola pre phpBB vypnutá.',
-	'ACP_VIGLINK_CLAIM'				=> 'Nárokujte si na vlastné zárobky',
-	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Namiesto darovania ziskov phpBB projektu si môžete nárokovať na zárobky vášho fóra zo speňažených VigLink odkazov. Pre správu vášho účtu sa zaregistrujte do „VigLink Convert” kliknutím na „Konvertovať účet”.',
-	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Konvertovať účet',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Odkaz konvertovaného účtu VigLink sa nepodarilo získať.',
-));
+$lang = array_merge($lang, [
+    "ACP_VIGLINK_SETTINGS" => "VigLink nastaveňá",
+    "ACP_VIGLINK_SETTINGS_EXPLAIN" =>
+        "VigLink je služba tretej strany, ktorá diskrétne speňažní odkazy v príspevkoch používateľov na vašom fóre bez akejkoľvek zmeny v ich používaní. Keď používateľ klikne na odkaz nejakého produktu alebo služby a zakúpi ju, predajca vyplatí VigLinku províziu, ktorej časť sa použije ako dar pre phpBB. Povolením VigLinku podporujete našu organizáciu a zaisťujete jej finančné zabezpečenie.",
+    "ACP_VIGLINK_SETTINGS_CHANGE" =>
+        'Tieto nastavenia môžete kedykoľvek zmeniť v paneli „<a href="%1$s">VigLink nastavení</a>“.',
+    "ACP_VIGLINK_SUPPORT_EXPLAIN" =>
+        "Po tom, čo odošlete vašu preferovanú možnosť kliknutím na tlačidlo Odoslať už viac nebudete presmerovaní na túto stránku.",
+    "ACP_VIGLINK_ENABLE" => "Zapať VigLink",
+    "ACP_VIGLINK_ENABLE_EXPLAIN" => "Zapne používanie služby VigLink.",
+    "ACP_VIGLINK_EARNINGS" => "Nárokujte si na vlastné zárobky (voliteľné)",
+    "ACP_VIGLINK_EARNINGS_EXPLAIN" =>
+        "Môžete si nárokovať na vlastné zárobky tým, že si vytvoríte VigLink účet.",
+    "ACP_VIGLINK_DISABLED_PHPBB" => "VigLink služba bola pre phpBB vypnutá.",
+    "ACP_VIGLINK_CLAIM" => "Nárokujte si na vlastné zárobky",
+    "ACP_VIGLINK_CLAIM_EXPLAIN" =>
+        "Namiesto darovania ziskov phpBB projektu si môžete nárokovať na zárobky vášho fóra zo speňažených VigLink odkazov. Pre správu vášho účtu sa zaregistrujte do „VigLink Convert” kliknutím na „Konvertovať účet”.",
+    "ACP_VIGLINK_CONVERT_ACCOUNT" => "Konvertuvať účet",
+    "ACP_VIGLINK_NO_CONVERT_LINK" =>
+        "Odkaz konvertovaného účtu VigLink sa nepodarilo získať.",
+]);

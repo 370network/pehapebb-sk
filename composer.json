@@ -1,31 +1,41 @@
 {
-	"name": "phpbbsk/phpbb",
-	"description": "Slovak language pack for phpBB",
-	"type": "phpbb-language",
-	"homepage": "https://www.phpbb.com/customise/db/translation/slovak/",
-	"version": "3.3.3",
-	"keywords": ["slovak", "slovenčina", "slovenský", "language", "locale", "localisation", "localization", "translate", "translation"],
-	"license": "GPL-2.0-only",
-	"authors": [
-		{
-			"name": "Jakub Senko",
-			"email": "jakubsenko@gmail.com"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/phpbbsk/phpbb/issues",
-		"source": "https://github.com/phpbbsk/phpbb"
-	},
-	"require": {
-		"php": ">=5.4"
-	},
-	"require-dev": {
-		"phpbb/translation-validator": "^1.5"
-	},
-	"extra": {
-		"language-iso": "sk",
-		"english-name": "Slovak",
-		"local-name": "Slovenčina",
-		"phpbb-version": "3.3.3"
-	}
+  "name": "370network/pehapebb-sk",
+  "description": "Voláky preklad pre phpBB",
+  "type": "phpbb-language",
+  "homepage": "https://www.phpbb.com/customise/db/translation/slovak/",
+  "version": "3.3.3",
+  "keywords": [
+    "maximálna",
+    "hovadina",
+    "localization",
+    "translate",
+    "translation"
+  ],
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Jakub Senko",
+      "email": "jakubsenko@gmail.com"
+    },
+    {
+      "name": "370network",
+      "email": "morc@370.network"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/370network/pehapebb-sk/issues",
+    "source": "https://github.com/370network/pehapebb-sk"
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpbb/translation-validator": "^1.5"
+  },
+  "extra": {
+    "language-iso": "sk",
+    "english-name": "Slovak-370network",
+    "local-name": "Voláky jazyk",
+    "phpbb-version": "3.3.3"
+  }
 }

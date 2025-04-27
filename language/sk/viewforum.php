@@ -1,28 +1,26 @@
 <?php
 /**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @author phpBB3.sk, PepeLopez, Fonzi, Senky
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-*
-*/
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @author phpBB3.sk, PepeLopez, Fonzi, Senky
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
+ * DO NOT CHANGE
+ */
+if (!defined("IN_PHPBB")) {
+    exit();
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,39 +35,41 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Aktívne témy',
-	'ANNOUNCEMENTS'			=> 'Oznámenia',
+$lang = array_merge($lang, [
+    "ACTIVE_TOPICS" => "Aktívne vlákna",
+    "ANNOUNCEMENTS" => "Oznámení",
 
-	'FORUM_PERMISSIONS'		=> 'Oprávnenia pre toto fórum',
+    "FORUM_PERMISSIONS" => "Oprávneňá pre toto fórum",
 
-	'ICON_ANNOUNCEMENT'		=> 'Oznámenie',
-	'ICON_STICKY'			=> 'Pripnutá téma',
+    "ICON_ANNOUNCEMENT" => "Oznámení",
+    "ICON_STICKY" => "Pripnutá téma",
 
-	'LOGIN_NOTIFY_FORUM'	=> 'Fórum môžu prezerať iba registrovaný užívatelia, prosím prihláste sa.',
+    "LOGIN_NOTIFY_FORUM" =>
+        "Fórum móžu čítať iba ľudí s členstvom v 370networku, máš smolu.",
 
-	'MARK_TOPICS_READ'		=> 'Označiť fórum ako prečítané',
+    "MARK_TOPICS_READ" => "Označiť fórum jak prečítané",
 
-	'NEW_POSTS_HOT'			=> 'Nové príspevky [ Obľúbené ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'Nové príspevky [ Zamknuté ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'Žiadne nové príspevky [ Obľúbené ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'Žiadne nové príspevky [ Zamknuté ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Na prezeranie alebo čítanie tém v tomto fóre nemáte oprávnenia.',
-	'NO_FORUMS_IN_CATEGORY'	=> 'Táto kategória nemá žiadne fóra.',
-	'NO_UNREAD_POSTS_HOT'		=> 'Žiadne neprečítané príspevky [ Obľúbené ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'Žiadne neprečítané príspevky [ Zamknuté ]',
+    "NEW_POSTS_HOT" => "Nové príspevky [ Obľúbené ]", // Not used anymore
+    "NEW_POSTS_LOCKED" => "Nové príspevky [ Zamknuté ]", // Not used anymore
+    "NO_NEW_POSTS_HOT" => "Žádne nové príspevky [ Obľúbené ]", // Not used anymore
+    "NO_NEW_POSTS_LOCKED" => "Žádne nové príspevky [ Zamknuté ]", // Not used anymore
+    "NO_READ_ACCESS" =>
+        "Na prezeraní alebo čítaní vláken nemáš povolení, smola.",
+    "NO_FORUMS_IN_CATEGORY" => "Táto kategória je čistá.",
+    "NO_UNREAD_POSTS_HOT" => "Žádne neprečítané príspevky [ Obľúbené ]",
+    "NO_UNREAD_POSTS_LOCKED" => "Žádne neprečítané príspevky [ Zamknuté ]",
 
-	'POST_FORUM_LOCKED'		=> 'Fórum je zamknuté',
- 
-	'TOPICS_MARKED'			=> 'Témy tohoto fóra boli označené ako prečítané.',
+    "POST_FORUM_LOCKED" => "Fórum je zamknuté",
 
-	'UNREAD_POSTS_HOT'		=> 'Neprečítané príspevky [ Obľúbené ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Neprečítané príspevky [ Zamknuté ]',
+    "TOPICS_MARKED" => "Vlákna tohoto fóra sú označené jak prečítané.",
 
-	'VIEW_FORUM'			=> 'Zobraziť fórum',
-	'VIEW_FORUM_TOPICS'	=> array(
-		1	=> '%d téma', 
-		2	=> '%d témy', 
-		3	=> '%d tém',
-	),
-));
+    "UNREAD_POSTS_HOT" => "Neprečítané príspevky [ Obľúbené ]",
+    "UNREAD_POSTS_LOCKED" => "Neprečítané príspevky [ Zamknuté ]",
+
+    "VIEW_FORUM" => "Zobraziť fórum",
+    "VIEW_FORUM_TOPICS" => [
+        1 => "%d téma",
+        2 => "%d témy",
+        3 => "%d tém",
+    ],
+]);

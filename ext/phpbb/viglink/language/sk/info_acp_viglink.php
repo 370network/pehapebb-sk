@@ -11,14 +11,12 @@
 /**
  * DO NOT CHANGE
  */
-if (!defined('IN_PHPBB'))
-{
-	exit;
+if (!defined("IN_PHPBB")) {
+    exit();
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +35,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'VigLink nastavenia',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Nastavenia VigLink sa nepodarilo overiť s phpBB.com</strong><br />» %s',
-));
+$lang = array_merge($lang, [
+    "ACP_VIGLINK_SETTINGS" => "VigLink nastaveňá",
+    "LOG_VIGLINK_CHECK_FAIL" =>
+        "<strong>Nastaveňá VigLinku phpBB.com sú dosrané</strong><br />» %s",
+]);

@@ -54,15 +54,15 @@ $lang = array_merge($lang, array(
 	'PLURAL_RULE'		=> 8,
 
 	'1_DAY'			=> '1 deň',
-	'1_MONTH'		=> '1 mesiac',
+	'1_MONTH'		=> '1 mesác',
 	'1_YEAR'		=> '1 rok',
-	'2_WEEKS'		=> '2 týždne',
-	'3_MONTHS'		=> '3 mesiace',
-	'6_MONTHS'		=> '6 mesiacov',
+	'2_WEEKS'		=> '2 týdeň',
+	'3_MONTHS'		=> '3 mesáce',
+	'6_MONTHS'		=> '6 mesácov',
 	'7_DAYS'		=> '7 dní',
 
-	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Váš účet už bol aktivovaný.',
-	'ACCOUNT_DEACTIVATED'			=> 'Váš účet bol manuálne deaktivovaný a môže byť znovu aktivovaný len administrátorom.',
+	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Váš účet už bóv aktivuvaný.',
+	'ACCOUNT_DEACTIVATED'			=> 'Váš účet bov deaktivuvaný, nerob bordel, volado ti ho hádam zapne.',
 	'ACP'							=> 'Administrátorský panel',
 	'ACP_SHORT'						=> 'Administrátorský panel',
 	'ACTIVE'						=> 'aktívny',
@@ -77,17 +77,17 @@ $lang = array_merge($lang, array(
 	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Vypršal časový limit pre vykonanie akcie. Pre správne dokončenie úkonu, akciu zopakujte.',
 	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Chyba počas vykonávania akcie, pričom server vrátil nesprávnu odpoveď.',
 	'ALLOWED'						=> 'Povolené',
-	'ALL_FILES'						=> 'Všetky súbory',
-	'ALL_FORUMS'					=> 'Všetky fóra',
-	'ALL_MESSAGES'					=> 'Všetky správy',
-	'ALL_POSTS'						=> 'Všetky príspevky',
-	'ALL_TIMES'						=> 'Všetky časy sú v <span title="%2$s">%1$s</span>',
-	'ALL_TOPICS'					=> 'Všetky témy',
+	'ALL_FILES'						=> 'Šecky súbory',
+	'ALL_FORUMS'					=> 'Šecky fóra',
+	'ALL_MESSAGES'					=> 'Šecky správy',
+	'ALL_POSTS'						=> 'Šecky príspevky',
+	'ALL_TIMES'						=> 'Šecky časy sú v <span title="%2$s">%1$s</span>',
+	'ALL_TOPICS'					=> 'Šecky témy',
 	'ALT_TEXT'						=> 'Alternatívny text',
 	'AND'							=> 'A',
 	'ARE_WATCHING_FORUM'			=> 'Budete upozornený na nové príspevky v tomto fóre.',
 	'ARE_WATCHING_TOPIC'			=> 'Budete upozornený na nové príspevky v tejto téme.',
-	'ASCENDING'						=> 'vzostupne',
+	'ASCENDING'						=> 'od najmenšého do najvačšého',
 	'ATTACHMENTS'					=> 'Prílohy',
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Súbor s obrázkom, ktorý sa pokúšate vložiť ako prílohu je neplatný.',
 	'AUTHOR'						=> 'Autor',
@@ -140,24 +140,24 @@ $lang = array_merge($lang, array(
 	'BROWSING_FORUM'		=> 'Užívatelia prezerajúci toto fórum: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
 	    1	=> 'Užívatelia prezerajúci toto fórum: %2$s a %1$d neregistrovaný',
-		2	=> 'Užívatelia prezerajúci toto fórum: %2$s a %1$d neregistrovaní', 
+		2	=> 'Užívatelia prezerajúci toto fórum: %2$s a %1$d neregistrovaní',
 		3	=> 'Užívatelia prezerajúci toto fórum: %2$s a %1$d neregistrovaných',
 	),
 	'BUTTON_DELETE'         => 'Vymazať',
 	'BUTTON_EDIT'			=> 'Upraviť',
 	'BUTTON_FORUM_LOCKED'	=> 'Zamknuté',
 	'BUTTON_INFORMATION'    => 'Informácia',
-	'BUTTON_NEW_TOPIC'		=> 'Založiť novú tému',
+	'BUTTON_NEW_TOPIC'		=> 'Založiť nové vlákno',
 	'BUTTON_PM'				=> 'SS',
 	'BUTTON_PM_FORWARD'		=> 'Poslať ďalej',
 	'BUTTON_PM_NEW'			=> 'Napísať správu',
 	'BUTTON_PM_REPLY'		=> 'Odoslať odpoveď',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpovedať všetkým',
 	'BUTTON_POST_REPLY'		=> 'Napísať odpoveď',
-	'BUTTON_QUOTE'			=> 'Citovať',
-	'BUTTON_REPORT'         => 'Nahlásiť',
+	'BUTTON_QUOTE'			=> 'Cituvať',
+	'BUTTON_REPORT'         => 'Sťažuvať sa',
 	'BUTTON_TOPIC_LOCKED'	=> 'Zamknuté',
-	'BUTTON_WARN'           => 'Varovať',
+	'BUTTON_WARN'           => 'Varuvať',
 	'BYTES'					=> 'Bajtov',
 	'BYTES_SHORT'			=> 'B',
 
@@ -167,12 +167,12 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Zmeniť nastavenia portálu',
 	'CHANGING_PROFILE'		=> 'Zmeniť profilové nastavenia',
 	'CHARACTERS'			=> array(
-	    1	=> '%d znak', 
-	    2	=> '%d znaky', 
+	    1	=> '%d znak',
+	    2	=> '%d znaky',
 	    3	=> '%d znakov',
 	),
 	'COLLAPSE_VIEW'			=> 'Rozbaliť',
-	'CLOSE_WINDOW'			=> 'Zavrieť okno',
+	'CLOSE_WINDOW'			=> 'Zavreť okno',
 	'CODE'					=> 'Kód',
 	'COLOUR_SWATCH'			=> 'Paleta farieb',
 	'COLON'					=> ':',
@@ -204,15 +204,15 @@ $lang = array_merge($lang, array(
 	'DELETE_MARKED'			=> 'Zmazať označené',
 	'DELETE_POST'			=> 'Zmazať príspevok',
 	'DELIMITER'				=> 'Oddelovač',
-	'DESCENDING'			=> 'zostupne',
-	'DISABLED'				=> 'Zablokované',
+	'DESCENDING'			=> 'od najvačšého do najmenšého',
+	'DISABLED'				=> 'Zablokuvané',
 	'DISPLAY'				=> 'Zobraziť',
 	'DISPLAY_GUESTS'		=> 'Zobraziť neregistrovaných',
 	'DISPLAY_MESSAGES'		=> 'Zobraziť správy za',
 	'DISPLAY_POSTS'			=> 'Zobraziť príspevky za',
 	'DISPLAY_TOPICS'		=> 'Zobraziť témy za',
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Zadaná emailová adresa nemá platný MX záznam.',
-	'DOWNLOADED'			=> 'Stiahnuté',
+	'DOWNLOADED'			=> 'Sťáhnuté',
 	'DOWNLOADING_FILE'		=> 'Sťahujem súbor',
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'Zatiaľ žiadne stiahnutie',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d stiahnutia',
 		3	=> '%d stiahnutí',
 	),
-	
+
 	'EDIT_POST'							=> 'Úprava príspevku',
 	'ELLIPSIS'							=> '…',
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
@@ -438,7 +438,7 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC'			=> 'Spojiť tému',
 	'MESSAGE'				=> 'Správa',
 	'MESSAGES'				=> 'Správy',
-	'MESSAGES_COUNT'		=> array( 
+	'MESSAGES_COUNT'		=> array(
 		1	=> '%d správa',
 		2	=> '%d správy',
 		3	=> '%d správ',
@@ -577,7 +577,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Žiaden príspevok v poradí',	// 0
 		1	=> '1 príspevok v poradí',		// 1
 		2	=> '%d príspevky v poradí',		// 2-4
-		3	=> '%d príspevkov v poradí',	// 5+			 
+		3	=> '%d príspevkov v poradí',	// 5+
 	),
 
 	'OCCUPATION'				=> 'Zamestnanie',
@@ -960,7 +960,7 @@ $lang = array_merge($lang, array(
 	'YEAR_MONTH_DAY'	=> '(RRRR-MM-DD)',
 	'YES'				=> 'Áno',
 	'YOU_LAST_VISIT'	=> 'Posledná návšteva: %s',
-		
+
 	'datetime'			=> array(
 		'TODAY'		=> 'Dnes',
 		'TOMORROW'	=> 'Zajtra',
